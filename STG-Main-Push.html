@@ -343,21 +343,13 @@
                 <div class="feature-box" id="server">
                     <h2>Server Status</h2>
                     <div class="server-status">
-                        <h3><span id="status-indicator" class="status-indicator"></span> <span id="server-status-text">Checking Server Status...</span></h3>
+                        <!-- Direct embedding of arma3-servers.net stats -->
+                        <iframe src="https://arma3-servers.net/embed/304634/" width="100%" height="380" frameborder="0" scrolling="no"></iframe>
                         
-                        <div class="server-info">
-                            <div>Server IP: <span>24.16.114.32:2302</span></div>
-                            <div>Map: <span id="current-map">Loading...</span></div>
-                            <div>Players: <span id="player-count">Loading...</span></div>
-                            <div>Mission: <span id="current-mission">Loading...</span></div>
-                        </div>
-                        
-                        <h4>Current Players</h4>
-                        <div class="player-list" id="player-list">
-                            <div class="player-item">Loading player list...</div>
+                        <div style="margin-top: 15px; text-align: center;">
+                            <a href="https://arma3-servers.net/server/304634/" target="_blank" class="btn">View Detailed Server Stats</a>
                         </div>
                     </div>
-                    <button id="refresh-status" class="btn">Refresh Server Status</button>
                 </div>
                 
                 <div class="feature-box" id="about">
@@ -520,4 +512,13 @@
                         <p style="margin: 5px 0;">Friday, May 16, 2025</p>
                         <p style="margin: 0;">Hostage rescue mission in urban environment</p>
                     </div>
-                    <div style="margin-bottom
+                    <div style="margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                        <h4 style="margin: 0; color: #bf0603;">Operation Sandstorm</h4>
+                        <p style="margin: 5px 0;">Friday, May 23, 2025</p>
+                        <p style="margin: 0;">Desert reconnaissance and asset recovery</p>
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <h4 style="margin: 0; color: #bf0603;">Operation Frostbite</h4>
+                        <p style="margin: 5px 0;">Friday, May 30, 2025</p>
+                        <p style="margin: 0;">Winter survival and exfiltration</p>
+                    </div>
